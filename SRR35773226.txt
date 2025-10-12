@@ -1,0 +1,12 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+SRR35773226/contigs.fasta	NODE_107_length_2013_cov_110.756715	1139	1951	-	aadA2_1	7-819/819	===============	0/0	99.27	99.88	resfinder	NC_010870	aadA2	Streptomycin
+SRR35773226/contigs.fasta	NODE_131_length_824_cov_245.287818	85	567	+	dfrA14_5	1-483/483	===============	0/0	100.00	99.59	resfinder	DQ388123	dfrA14	Trimethoprim
+SRR35773226/contigs.fasta	NODE_35_length_61471_cov_213.097681	57143	57799	-	qnrS1_1	1-657/657	===============	0/0	100.00	100.00	resfinder	AB187515	qnrS1	Ciprofloxacin
+SRR35773226/contigs.fasta	NODE_52_length_33314_cov_100.805608	18869	19288	-	fosA6_1	1-420/433	===============	0/0	97.00	98.81	resfinder	KU254579	fosA6	Fosfomycin
+SRR35773226/contigs.fasta	NODE_78_length_6105_cov_204.013769	3788	4669	-	blaKPC-2_1	1-882/882	===============	0/0	100.00	100.00	resfinder	AY034847	blaKPC-2	Amoxicillin;Amoxicillin+Clavulanic_acid;Ampicillin;Ampicillin+Clavulanic_acid;Aztreonam;Cefepime;Cefotaxime;Cefoxitin;Ceftazidime;Ertapenem;Imipenem;Meropenem;Piperacillin;Piperacillin+Tazobactam;Ticarcillin;Ticarcillin+Clavulanic_acid
+SRR35773226/contigs.fasta	NODE_82_length_5186_cov_199.985516	3884	4699	-	sul2_2	1-816/816	===============	0/0	100.00	100.00	resfinder	AY034138	sul2	Sulfamethoxazole
+SRR35773226/contigs.fasta	NODE_86_length_4411_cov_267.844255	3528	4388	-	blaSHV-12_1	1-861/861	===============	0/0	100.00	100.00	resfinder	KF976405	blaSHV-12	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+SRR35773226/contigs.fasta	NODE_89_length_3958_cov_237.449111	474	1229	-	rmtB_1	1-756/756	===============	0/0	100.00	100.00	resfinder	AB103506	rmtB	Amikacin;Gentamicin;Tobramycin
+SRR35773226/contigs.fasta	NODE_89_length_3958_cov_237.449111	1399	2259	-	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+SRR35773226/contigs.fasta	NODE_92_length_3671_cov_194.629661	872	2118	+	tet(A)_6	1-1247/1275	===============	0/0	97.80	100.00	resfinder	AF534183	tet(A)	Doxycycline;Tetracycline
+SRR35773226/contigs.fasta	NODE_94_length_3296_cov_228.141970	2302	3177	-	blaCTX-M-65_1	1-876/876	===============	0/0	100.00	100.00	resfinder	EF418608	blaCTX-M-65	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin

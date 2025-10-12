@@ -1,0 +1,17 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+SRR35773225/contigs.fasta	NODE_107_length_1653_cov_175.912139	250	906	+	qnrS1_1	1-657/657	===============	0/0	100.00	100.00	resfinder	AB187515	qnrS1	Ciprofloxacin
+SRR35773225/contigs.fasta	NODE_120_length_1284_cov_311.910522	393	1268	-	blaCTX-M-3_1	1-876/876	===============	0/0	100.00	100.00	resfinder	Y10278	blaCTX-M-3	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+SRR35773225/contigs.fasta	NODE_28_length_75904_cov_130.188614	16688	17863	+	oqxA_1	1-1176/1176	===============	0/0	100.00	99.23	resfinder	EU370913	oqxA	Nalidixic_acid;Ciprofloxacin
+SRR35773225/contigs.fasta	NODE_28_length_75904_cov_130.188614	17887	21039	+	oqxB_1	1-3153/3153	===============	0/0	100.00	98.86	resfinder	EU370913	oqxB	Nalidixic_acid;Ciprofloxacin
+SRR35773225/contigs.fasta	NODE_3_length_264006_cov_139.745257	15730	16149	+	fosA6_1	1-420/433	===============	0/0	97.00	99.76	resfinder	KU254579	fosA6	Fosfomycin
+SRR35773225/contigs.fasta	NODE_56_length_9795_cov_139.412739	2591	3837	+	tet(A)_6	1-1247/1275	===============	0/0	97.80	100.00	resfinder	AF534183	tet(A)	Doxycycline;Tetracycline
+SRR35773225/contigs.fasta	NODE_57_length_9524_cov_321.090717	1886	2698	+	blaNDM-1_1	1-813/813	===============	0/0	100.00	100.00	resfinder	FN396876	blaNDM-1	Amoxicillin;Amoxicillin+Clavulanic_acid;Ampicillin;Ampicillin+Clavulanic_acid;Cefepime;Cefixime;Cefotaxime;Cefoxitin;Ceftazidime;Ertapenem;Imipenem;Meropenem;Piperacillin;Piperacillin+Tazobactam
+SRR35773225/contigs.fasta	NODE_60_length_6879_cov_146.128786	4679	5161	-	dfrA14_5	1-483/483	===============	0/0	100.00	99.59	resfinder	DQ388123	dfrA14	Trimethoprim
+SRR35773225/contigs.fasta	NODE_69_length_5034_cov_1627.065564	3635	4412	-	aph(3')-VIb_1	1-778/780	===============	0/0	99.74	99.23	resfinder	AJ627643	aph(3')-VIb	Amikacin
+SRR35773225/contigs.fasta	NODE_71_length_4446_cov_184.634699	113	915	+	aph(3'')-Ib_2	2-804/804	===============	0/0	99.88	100.00	resfinder	AF024602	aph(3'')-Ib	Streptomycin
+SRR35773225/contigs.fasta	NODE_71_length_4446_cov_184.634699	915	1751	+	aph(6)-Id_1	1-837/837	===============	0/0	100.00	100.00	resfinder	M28829	aph(6)-Id	Streptomycin
+SRR35773225/contigs.fasta	NODE_83_length_2753_cov_141.935725	121	981	+	aac(3)-IIa_1	1-861/861	===============	0/0	100.00	99.77	resfinder	X51534	aac(3)-IIa	Gentamicin;Tobramycin
+SRR35773225/contigs.fasta	NODE_87_length_2338_cov_115.596639	655	1485	-	blaOXA-1_1	1-831/831	===============	0/0	100.00	100.00	resfinder	HQ170510	blaOXA-1	Amoxicillin;Amoxicillin+Clavulanic_acid;Ampicillin;Ampicillin+Clavulanic_acid;Cefepime;Piperacillin;Piperacillin+Tazobactam
+SRR35773225/contigs.fasta	NODE_87_length_2338_cov_115.596639	1616	2215	-	aac(6')-Ib-cr_1	1-600/600	===============	0/0	100.00	100.00	resfinder	DQ303918	aac(6')-Ib-cr	Ciprofloxacin
+SRR35773225/contigs.fasta	NODE_98_length_2035_cov_124.465781	823	1467	-	qnrB1_1	1-645/645	===============	0/0	100.00	100.00	resfinder	DQ351241	qnrB1	Ciprofloxacin
+SRR35773225/contigs.fasta	NODE_99_length_1978_cov_170.872173	652	1512	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin

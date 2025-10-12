@@ -1,0 +1,11 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+SRR35773224/contigs.fasta	NODE_111_length_1423_cov_218.561664	611	1027	-	fosA3_1	1-417/417	===============	0/0	100.00	100.00	resfinder	AB522970	fosA3	Fosfomycin
+SRR35773224/contigs.fasta	NODE_35_length_59096_cov_143.784391	324	1499	+	oqxA_1	1-1176/1176	===============	0/0	100.00	100.00	resfinder	EU370913	oqxA	Nalidixic_acid;Ciprofloxacin
+SRR35773224/contigs.fasta	NODE_35_length_59096_cov_143.784391	1523	4675	+	oqxB_1	1-3153/3153	===============	0/0	100.00	100.00	resfinder	EU370913	oqxB	Nalidixic_acid;Ciprofloxacin
+SRR35773224/contigs.fasta	NODE_3_length_269908_cov_139.392864	13987	14406	+	fosA6_1	1-420/433	===============	0/0	97.00	98.81	resfinder	KU254579	fosA6	Fosfomycin
+SRR35773224/contigs.fasta	NODE_70_length_8249_cov_219.967083	1437	2318	+	blaKPC-2_1	1-882/882	===============	0/0	100.00	100.00	resfinder	AY034847	blaKPC-2	Amoxicillin;Amoxicillin+Clavulanic_acid;Ampicillin;Ampicillin+Clavulanic_acid;Aztreonam;Cefepime;Cefotaxime;Cefoxitin;Ceftazidime;Ertapenem;Imipenem;Meropenem;Piperacillin;Piperacillin+Tazobactam;Ticarcillin;Ticarcillin+Clavulanic_acid
+SRR35773224/contigs.fasta	NODE_82_length_4411_cov_367.185279	24	884	+	blaSHV-12_1	1-861/861	===============	0/0	100.00	100.00	resfinder	KF976405	blaSHV-12	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+SRR35773224/contigs.fasta	NODE_85_length_3959_cov_225.278980	1701	2561	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+SRR35773224/contigs.fasta	NODE_85_length_3959_cov_225.278980	2731	3486	+	rmtB_1	1-756/756	===============	0/0	100.00	100.00	resfinder	AB103506	rmtB	Amikacin;Gentamicin;Tobramycin
+SRR35773224/contigs.fasta	NODE_86_length_3772_cov_233.456292	120	995	+	blaCTX-M-65_1	1-876/876	===============	0/0	100.00	100.00	resfinder	EF418608	blaCTX-M-65	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+SRR35773224/contigs.fasta	NODE_89_length_2935_cov_137.296711	1139	1951	-	aadA2_1	7-819/819	===============	0/0	99.27	99.88	resfinder	NC_010870	aadA2	Streptomycin
