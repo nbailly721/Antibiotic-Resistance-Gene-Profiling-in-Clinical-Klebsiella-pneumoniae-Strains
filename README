@@ -1,6 +1,5 @@
-Antibiotic Resistance Gene Analysis in Klebsiella pneumoniae
-
-This project identifies and analyzes antibiotic resistance genes across multiple Klebsiella pneumoniae strains using a combination of Linux shell scripting for data retrieval and assembly, and R for downstream analysis and visualization.
+                                                                           ######Antibiotic Resistance Gene Analysis in Klebsiella pneumoniae######
+-This project identifies and analyzes antibiotic resistance genes across multiple Klebsiella pneumoniae strains using a combination of Linux shell scripting for data retrieval and assembly, and R for downstream analysis and visualization.
 
 ##🖥️ Workflow Overview
 1. Raw Data Download and Genome Assembly (Linux Shell Script)
