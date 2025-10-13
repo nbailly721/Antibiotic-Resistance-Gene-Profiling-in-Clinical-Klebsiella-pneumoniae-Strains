@@ -1,4 +1,4 @@
-## _ Install and loadm packages--------
+## _ Environment set up--------
 
 install.packages ('tidyverse')
 library('tidyverse')
