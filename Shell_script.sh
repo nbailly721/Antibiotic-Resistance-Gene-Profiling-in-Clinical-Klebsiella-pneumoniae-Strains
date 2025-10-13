@@ -8,7 +8,7 @@
 #   and detects antibiotic resistance genes using Abricate.
 # ================================================ 
 
-#_ Set up environment ------------
+##_ Set up environment ------------
 module load sra-toolkit/3.0.9
 module load spades/4.2.0
 module load StdEnv/2020
@@ -18,7 +18,7 @@ module load  abricate/1.0.0
 mkdir -p assemblies
 # Make sure output directory exists 
 
-#_ Download raw data (.sra files) ------------
+##_ Download raw data (.sra files) ------------
 echo "Downloading .sra files..."
 prefetch SRR35773224
 prefetch SRR35773225
@@ -27,7 +27,7 @@ prefetch SRR35773227
 prefetch SRR35773228
 echo "All downloads complete."
 
-#_Convert .sra Files to FASTQ Format ------------
+##_Convert .sra Files to FASTQ Format ------------
 
 echo "Converting .sra files to FASTQ..."
 fasterq-dump SRR35773224
@@ -37,7 +37,7 @@ fasterq-dump SRR35773227
 fasterq-dump SRR35773228
 echo "Conversion complete."
 
-#_Genome Assembly for Each Sample ------------
+##_Genome Assembly for Each Sample ------------
 
 spades.py \
   -1 SRR35773224_1.fastq \
@@ -71,7 +71,7 @@ spades.py \
 
 echo "All assemblies complete!"
 
-#_Detect Known Antibiotic Resistance Genes using Abricate ------------
+##_Detect Known Antibiotic Resistance Genes using Abricate ------------
 
 echo 'Running abricate for SRR35773224'
 abricate --db  resfinder SRR35773224 > SRR35773224.txt
