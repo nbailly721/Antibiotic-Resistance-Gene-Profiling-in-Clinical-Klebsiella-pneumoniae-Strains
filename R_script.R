@@ -1,3 +1,10 @@
+## ================================================
+## Project: Analysis of Antibiotic Resistance Genes
+## Description:
+##   This script loads Abricate output files, combines data from multiple strains,
+##   identifies shared and unique resistance genes, and visualizes gene counts.
+## ================================================
+
 ## _ Environment set up--------
 
 install.packages ('tidyverse')
@@ -14,6 +21,7 @@ data_SRR35773226 <-read_tsv('../data/SRR35773226.txt')
 data_SRR35773227 <-read_tsv('../data/SRR35773227.txt')
 
 data_SRR35773228 <-read_tsv('../data/SRR35773228.txt')
+#Import the abricate results produced in the shell script for each strain
 
 ## _ Data modification  --------
 
@@ -38,30 +46,27 @@ combined_data <- rbind(
 ## __ Genes shared by all strains  --------
 
 genes_shared <- combined_data %>% group_by(GENE) %>%
-                 summarise (n_strains=n_distinct(Strain)) %>% filter(n_strains == 5)
+                 summarise (n_strains=n_distinct(Strain)) %>% filter(n_strains == 5) # Present in all 5 strains
 
 ## __ Genes that are unique to one strain  --------
 
 genes_unique_strain <-combined_data %>% group_by(GENE) %>% 
-                 summarise (n_strains=n_distinct(Strain)) %>% filter(n_strains == 1)
+                 summarise (n_strains=n_distinct(Strain)) %>% filter(n_strains == 1) # Present in only one strain
 
 genes_unique_identity <- combined_data %>% filter(GENE %in% genes_unique_strain$GENE) %>%
                          select(GENE, Strain) %>%
-                         distinct ()
-#To determine the identity of the strains that have unique genes
+                         distinct () # This gives which strain has which unique genes
 
-## __ Genes that are shared by some but not all strains  --------
+## __ Identify Genes Shared by Some but Not All Strains ----------
 
 total_strains <- combined_data %>% pull (Strain) %>% unique () %>% length()
 
 genes_partial <- combined_data %>% group_by(GENE) %>% 
-                  summarise (n_strains=n_distinct(Strain)) %>% filter (n_strains >1 & n_strains<total_strains)
+                  summarise (n_strains=n_distinct(Strain)) %>% filter (n_strains >1 & n_strains<total_strains) # Shared partially
 
 gene_partial_identity <-combined_data %>% filter(GENE %in% genes_partial$GENE) %>%
                         select(GENE,Strain) %>%
-                        distinct ()
-
-#To determine the identify of the strains that share some genes
+                        distinct () # Identify which strains share these partially shared genes
 
 ## _ Visualization of gene counts  --------
 
@@ -70,7 +75,7 @@ presence_matrix[presence_matrix >=1] <-1
 presence_matrix <- as.data.frame.matrix (presence_matrix)
 presence_matrix$GENE <- rownames(presence_matrix)
 rownames(presence_matrix) <- NULL
-#Make a matrix table to then produce the bar plot
+# Create a presence/absence matrix (1 if gene present, else 0)
 
 counts_per_strain <- colSums(presence_matrix[,-which(names(presence_matrix)=='GENE')])
 print(counts_per_strain)
@@ -79,7 +84,7 @@ gene_counts <-data.frame(
                 Strain=names(counts_per_strain),
                 Gene_count=as.integer(counts_per_strain)
 )
-#Calculate total number of genes per strain
+# Calculate total number of unique genes per strain
 
 ggplot(data=gene_counts, aes(y=Gene_count, x=Strain, fill=Strain)) +
     geom_bar(stat='identity') +
@@ -87,6 +92,6 @@ ggplot(data=gene_counts, aes(y=Gene_count, x=Strain, fill=Strain)) +
          x='Gene count',
          title='Number of resistant genes per strain of Klebsiella pneumoniae') +
           theme (plot.title=element_text(hjust=0.5))
-#Bar plot comparing the amount of resistant genes
+# Plot bar chart comparing gene counts across strains
 
 
