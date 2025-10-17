@@ -57,7 +57,7 @@ abricate_analysis.R: R script performing data analysis and visualization.
 
 assemble_and_annotate.sh: Shell script for downloading, assembling, and annotating genomes.
 
-data/: Folder containing raw data, assemblies, and Abricate output files.
+Abricate output files in .txt format.
 
 ##🧠 Notes
 
