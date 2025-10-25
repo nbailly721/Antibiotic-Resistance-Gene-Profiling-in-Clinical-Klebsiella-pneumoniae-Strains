@@ -1,4 +1,4 @@
-                                                                           ######Antibiotic Resistance Gene Analysis in Klebsiella pneumoniae######
+                                                                           ######Antibiotic Resistance Gene Profiling in Clinical Klebsiella pneumoniae Strains######
 -This project identifies and analyzes antibiotic resistance genes across multiple Klebsiella pneumoniae strains using a combination of Linux shell scripting for data retrieval and assembly, and R for downstream analysis and visualization.
 
 ##🖥️ Workflow Overview
