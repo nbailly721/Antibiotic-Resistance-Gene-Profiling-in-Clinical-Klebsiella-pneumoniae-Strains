@@ -51,7 +51,7 @@ Strain-exclusive genes.csv
 
 Strain-shared genes.csv
 
-Bar plots comparing resistance gene counts per Klebsiella pneumoniae strain.
+Number of resistant genes per strain of Klebsiella pneumoniae.png
 
 ##📂 Files
 
