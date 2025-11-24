@@ -57,8 +57,6 @@ abricate_analysis.R: R script performing data analysis and visualization.
 
 assemble_and_annotate.sh: Shell script for downloading, assembling, and annotating genomes.
 
-Abricate output files in .txt format.
-
 ##🧠 Notes
 
 This pipeline leverages both command-line tools for heavy data processing and R for flexible data analysis.
