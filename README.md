@@ -47,7 +47,9 @@ Packages: tidyverse (data manipulation and plotting)
 
 ##📊 Key Results
 
-Lists of shared, unique, and partially shared antibiotic resistance genes across strains.
+Strain-exclusive genes.csv
+
+Strain-shared genes.csv
 
 Bar plots comparing resistance gene counts per Klebsiella pneumoniae strain.
 
