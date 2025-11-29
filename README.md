@@ -74,7 +74,7 @@ Combines command-line processing for computational efficiency with R for flexibl
 
 Results provide insights into distribution and prevalence of resistance genes across clinical K. pneumoniae strains.
 
-Real-World Relevance
+**Real-World Relevance**
 
 Supports antibiotic resistance surveillance and microbial genomics research.
 
