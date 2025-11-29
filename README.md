@@ -5,6 +5,7 @@
 This project identifies and analyzes antibiotic resistance genes across multiple Klebsiella pneumoniae strains. The workflow combines Linux shell scripting for raw data retrieval and genome assembly with R for downstream analysis and visualization. It determines genes shared among all strains, strain-specific resistance genes, and patterns of antibiotic resistance across clinical isolates.
 
 **Workflow Overview**
+
      1. Raw Data Download and Genome Assembly (Linux Shell Script)
 
 Download raw sequencing data (.sra files) from NCBI SRA using sra-tools.
